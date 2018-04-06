@@ -77,5 +77,12 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamB(scoreTeamB);
 
     }
+    public void restScores(View view) {
+        scoreTeamB = 0;
+        scoreTeamA = 0;
+        displayForTeamB(scoreTeamB);
+        displayForTeamA(scoreTeamA);
+
+    }
 
 }
